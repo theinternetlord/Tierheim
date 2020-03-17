@@ -24,6 +24,7 @@ public class TierheimFrame extends JFrame {
 		setTitle("Tierheim");
 		setBounds(0, 0, 800, 600);
 		setLocationRelativeTo(null);
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
 		setResizable(false);
 		setVisible(true);
 	}
